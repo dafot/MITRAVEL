@@ -1,21 +1,21 @@
 .insp {
-    padding-top: 95px;
+  padding-top: 95px;
 }
 .insp__container {
 }
 .insp__heading {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 .insp__descr {
-    text-align: center;
-    max-width: 635px;
-    margin: 0 auto;
-    color: var(--grey-color);
-    font-family: 'SFCopmact', sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 95px;
+  text-align: center;
+  max-width: 635px;
+  margin: 0 auto;
+  color: var(--grey-color);
+  font-family: "SFCopmact", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 95px;
 }
 .grid {
   display: grid;
@@ -69,6 +69,19 @@
   font-size: 32px;
   color: var(--white-color);
   margin-bottom: 25px;
+  line-height: 40px;
+}
+
+.insp__play {
+  background-image: url(../../img/play.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  left: 40px;
+  top: 40px;
 }
 .insp__people {
   display: flex;
@@ -79,16 +92,16 @@
   border: 4px solid var(--white-color);
   width: 48px;
   height: 48px;
-  background-color: var(--white-color);  
+  background-color: var(--white-color);
 }
 
 .insp__people-item:not(:first-child) {
-    margin-left: -15px;
+  margin-left: -15px;
 }
 .insp__people-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .insp__item--big {
   grid-column-end: span 2;
