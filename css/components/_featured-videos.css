@@ -1,0 +1,19 @@
+.featured-videos {
+    
+}
+.featured-videos__container {
+}
+.featured-videos__title {
+    margin-bottom: 24px;
+}
+.section-title--center {
+}
+.featured-videos__descr {
+  font-family: "SFCompactText";
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--grey-color);
+  max-width: 634px;
+  margin:0 auto;
+}

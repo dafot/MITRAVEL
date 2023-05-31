@@ -37,3 +37,16 @@ input[type="search"]::-webkit-search-results-decoration {
     text-align: center;
     max-width: none;
 }
+
+.color-1{
+  background-color: #BFCCB5;
+}
+.color-2{
+  background-color: #7C96AB;
+}
+.color-3{
+  background-color: #B7B7B7;
+}
+.color-4{
+  background-color: #EDC6B1;
+}

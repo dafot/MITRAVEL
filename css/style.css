@@ -1,10 +1,11 @@
+@import "_vendor.css";
+@import "components/_slider.css";
 @import "_zero.css";
 @import "_variables.css";
 @import "_normalize.css";
 @import "_fonts.css";
 @import "_global.css";
 @import "_overall.css";
-@import "_vendor.css";
 
 /* =====COMPONENTS===== */
 
@@ -12,3 +13,6 @@
 @import "components/_first.css";
 @import "components/_become.css";
 @import "components/_featured.css";
+@import "components/_featured-videos.css";
+@import "components/_newsletter.css";
+@import "components/_insp.css";
