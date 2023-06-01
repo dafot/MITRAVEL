@@ -4,16 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="libs/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/owl.theme.default.min.css">
 
     <link rel="stylesheet" href="css/style.css" />
     <title>Mitravel</title>
   </head>
   <body>
     <div class="site-container">
+      <div class="menu">
+        <button class="menu__close btn-reset" aria-label="close menu">
+          <span class="menu__close-line"></span><span class="menu__close-line"></span>
+        </button>
+        <nav class="menu__nav">
+          <ul class="menu__list">
+            <li class="menu__item"><a href="" class="menu__link">Become A Travel</a></li>
+            <li class="menu__item"><a href="" class="menu__link">Featured Stories</a></li>
+            <li class="menu__item"><a href="" class="menu__link">Featured Videos</a></li>
+            <li class="menu__item"><a href="" class="menu__link">Newsletter</a></li>
+            <li class="menu__item"><a href="" class="menu__link">Inspirations</a></li>
+            <li class="menu__item"><a href="" class="menu__link">contacts</a></li>
+          </ul>
+        </nav>
+      </div>
       <header class="header">
         <div class="header__container container flex">
           <ul class="header__social social">
@@ -65,18 +78,56 @@
                   aria-label="search-stories"
                 ></button>
               </form>
-              <div class="first__slider main-slider">
+              <div class="owl-carousel main-slider" id="carousel-one">
+                <div>
+                  <div class="main-slider__media">
+                    <img src="img/slider1.jpg" alt="slider img" />
+                  </div>
+                  <p class="main-slider__text">wonderful moutain</p>
+                </div>
+                <div>
+                  <div class="main-slider__media">
+                    <button class="main-slider__play btn-reset"></button>
+                    <video src="img/nature.mp4" muted playsinline></video>
+                  </div>
+                  <p class="main-slider__text">wonderful moutain</p>
+                </div>
+                <div>
+                  <div class="main-slider__media">
+                    <img src="img/slider1.jpg" alt="slider img" />
+                  </div>
+                  <p class="main-slider__text">wonderful moutain</p></div>
+                <div>
+                  <div class="main-slider__media">
+                    <img src="img/slider1.jpg" alt="slider img" />
+                  </div>
+                  <p class="main-slider__text">wonderful moutain</p></div>
+                <div>
+                  <div class="main-slider__media">
+                    <img src="img/slider1.jpg" alt="slider img" />
+                  </div>
+                  <p class="main-slider__text">wonderful moutain</p></div>
+                <div>
+                  <div class="main-slider__media">
+                    <img src="img/slider1.jpg" alt="slider img" />
+                  </div>
+                  <p class="main-slider__text">wonderful moutain</p></div>
+                <div>
+                  <div class="main-slider__media">
+                    <img src="img/slider1.jpg" alt="slider img" />
+                  </div>
+                  <p class="main-slider__text">wonderful moutain</p></div>
+              </div>
+              <!--<div class="first__slider main-slider">
                 <div class="swiper-container">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                      <div class="main-slider__media">
-                        <img src="img/slider1.jpg" alt="slider img" />
-                      </div>
-                      <p class="main-slider__text">wonderful moutain</p>
+
                     </div>
                   </div>
                 </div>
-              </div>
+              </div>-->
+
             </div>
           </div>
         </section>
@@ -247,47 +298,11 @@
             </p>
           </div>
           <!-- Slider main container -->
-          <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-              <!-- Slides -->
-              <div class="swiper-slide">
-                <div class="slide-card color-1">
-                  <img
-                    src="https://www.lifegate.com/app/uploads/mare-fa-bene-2.jpg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="slide-card color-2">
-                  <img
-                    src="https://img.freepik.com/free-photo/fantastic-seascape-with-ripples_1232-424.jpg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="slide-card color-3">
-                  <img
-                    src="https://cdn.thewire.in/wp-content/uploads/2018/08/30135059/waves-1867285_1920.jpg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="slide-card color-2">
-                  <img
-                    src="https://img.freepik.com/free-photo/fantastic-seascape-with-ripples_1232-424.jpg"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+          <div class="featured__slider owl-carousel" id="carousel-two">
+            <div class="featured__slide"><img src="img/slide1.jpg" alt=""></div>
+            <div class="featured__slide"><img src="img/slide2.jpg" alt=""></div>
+            <div class="featured__slide"><img src="img/slide3.jpg" alt=""></div>
+            <div class="featured__slide"><img src="img/slide4.jpg" alt=""></div>
           </div>
         </section>
 
@@ -491,7 +506,7 @@
             </ul>
           </nav>
           <nav class="footer__column">
-            <h2 class="footer__title">Company</h2>
+            <h2 class="footer__title">information</h2>
             <ul class="footer__list">
               <li class="footer__item">
                 <a href="#" class="footer__link">about</a>
@@ -538,9 +553,9 @@
           </nav>
 
           <nav class="footer__column">
-            <h2 class="footer__title">Company</h2>
+            <h2 class="footer__title">Subscribe now</h2>
             <form action="#" class="subs-form">
-              <input type="email" name="email" class="subs-form__field">
+              <input type="email" name="email" class="subs-form__field" placeholder="Your Email">
               <button class="btn-reset btn subs-form__btn">Subscribe</button>
             </form>
 
@@ -548,13 +563,13 @@
           </nav>
         </div>
         <div class="footer__bottom">
-          <div class="container footer__container flex">
+          <div class="container bottom__container flex">
             <small class="footer__copy">© 2019 Mass Impressions. Designed by Tran Mau Tri Tam for Mass Impressions. All rights reserved.</small>
             <ul class="footer__links">
-              <li class="footer_links-item">
+              <li class="footer__links-item">
                 <a href="" class="footer__link">Terms of Service</a>
               </li>
-              <li class="footer_links-item">
+              <li class="footer__links-item">
                 <a href="" class="footer__link">Privacy Policy</a>
               </li>
             </ul>
@@ -562,8 +577,9 @@
         </div>
       </footer>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="libs/swiper.js"></script>
+    <script src="libs/jquery.min.js"></script>
+    <script src="libs/owl.carousel.min.js"></script>
+    <script src="libs/owl.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

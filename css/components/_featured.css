@@ -68,8 +68,11 @@
 .blog-article__link {
   background-color: var(--neptune-color);
   display: inline-block;
+  transition: background-color 0.3s;
 }
-
+.blog-article__link:hover {
+  background-color: var(--neptune-hover-color);
+}
 .featured__title {
   font-weight: 700;
   font-size: 64px;
@@ -113,7 +116,7 @@
   margin-bottom: 5px;
 }
 .feature-list__time {
-  font-family: 'SFProText-Regular', sans-serif;
+  font-family: "SFProText-Regular", sans-serif;
   font-weight: 400;
   font-size: 11px;
   display: block;

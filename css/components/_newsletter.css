@@ -35,7 +35,7 @@
 }
 .newsletter__form {
   position: absolute;
-  bottom: -96px;
+  bottom: -76px;
   right: var(--newsletter-gap);
 }
 .subscribe-form {
@@ -69,4 +69,9 @@
   padding: 41px 80px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+  transition: background-color .3s;
+}
+.subscribe-form__btn:hover {
+  background-color: var(--neptune-hover-color);
+
 }
